@@ -129,12 +129,12 @@ body {
 #container-footer {
     width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 .footer-disclaimer {
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     background-color: transparent;
     color: black;
@@ -233,7 +233,7 @@ a {
 	    .footer-disclaimer {
         color: #000000; /* Legible color for mobile */
         border: 1px solid #000000; /* Updated border color for mobile */
-        font-size: 8px; /* JM added small font size */
-
+        font-size: 7px; /* JM added small font size */
+		width: 100%;
     }
 }
