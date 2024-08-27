@@ -163,7 +163,7 @@ body {
 }
 
 .accordion:hover {
-    background-color: rgba(0, 0, 0, 0.3); /* Slightly less transparent on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly less transparent on hover */
 }
 
 .accordion-header {
@@ -217,6 +217,15 @@ a {
 	font-weight: bold;
 }
 
+#container-bottom-right {
+    width: 35%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 
 
 /* Mobile-specific styling */
@@ -236,4 +245,9 @@ a {
         font-size: 7px; /* JM added small font size */
 		width: 100%;
     }
+	
+	.caption {
+    font-size: 12px;
+    }
+
 }
