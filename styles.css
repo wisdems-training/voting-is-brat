@@ -228,6 +228,17 @@ a {
 
 
 
+
+
+#container-bottom .top-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
 /* Mobile-specific styling */
 @media (max-width: 768px) {
     .hotline-number {
