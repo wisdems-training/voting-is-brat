@@ -226,7 +226,9 @@ a {
     justify-content: flex-end;
 }
 
-
+ul {
+	   overflow-wrap: break-word;
+}
 
 
 
